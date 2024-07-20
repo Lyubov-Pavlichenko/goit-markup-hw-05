@@ -62,9 +62,10 @@
       <section class="post">
         <div class="container main-container">
           <h1 class="post-title">Effective Solutions for Your Business</h1>
-          <button class="cursor head-cursor" type="button">
+          <button class="cursor head-cursor" type="button" data-modal-open>
             Order Service
           </button>
+          
         </div>
       </section>
       <section class="work">
@@ -463,7 +464,35 @@
     </li>
   </ul>
       </div>
+      <div class="box-footer">
+        <div class="form-label-text">
+      <form class="form">
+        <label class="form-label">
+          <span class="label-text">Subscribe</span>
+          <input type="text" class="form-input" name="username" placeholder="E-mail">
+        </label>
+      </div>
+      <div class="footer-form-sub">
+        <button class="sub" type="submit">Subscribe 
+          <a href="" target="_blank" class="footer-lin-form">
+          <svg class="social-links" width="24" height="20">
+            <use href="./images/icons.svg#icon-Frame-3"></use>
+          </svg>
+        </button>
+        
+        </div>
+      </form>
     </div>
     </footer>
+  </div>
+    <div class="backdrop is-open" data-modal>
+      <div class="modal">
+        <section>
+          <button class="modal-close-btn" type="button" data-modal-close="">Order Service</button>
+        </section> 
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
+
