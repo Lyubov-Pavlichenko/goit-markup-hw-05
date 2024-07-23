@@ -586,7 +586,6 @@ background-color: #404bbf;
 }
 
 .backdrop {
-    padding: 72px 24px 24px 24px;
     position: fixed; 
     top: 0; 
     left: 0;
@@ -608,6 +607,7 @@ background-color: #404bbf;
 }
 
 .modal {
+padding: 72px 24px 24px 24px;   
  position: absolute; 
  top: 50%;
  left: 50%;
@@ -672,13 +672,11 @@ stroke-width: 1px;
     text-align: center;
     color: #2e2f42;
     text-align: center;
-    margin-top: 72px;
     margin-bottom: 16px;    
 }
 
-.person {
-    margin-left: 24px;
-    margin-right: 24px;
+.person,
+.us-tel {
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -724,12 +722,6 @@ stroke-width: 1px;
     fill: #4D5AE5;  
 }
 
-.us-tel {
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
 
 .com-tem {
 border: 1px solid rgba(46, 47, 66, 0.4);
@@ -753,14 +745,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: 1px solid #4d5ae5; 
 }
 
-.us-email {
-    margin-left: 24px;
-    margin-right: 24px;
-}
-
 .us-com {
-    margin-left: 24px;
-    margin-right: 24px;
     margin-top: 8px;
     margin-bottom: 16px; 
 }
@@ -779,11 +764,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;  
-}
-
-.check-fo {
-    margin-left: 24px;
-    margin-bottom: 24px; 
 }
 
 .visual-hidden {
