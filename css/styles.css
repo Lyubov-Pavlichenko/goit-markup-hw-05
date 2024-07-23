@@ -675,8 +675,7 @@ stroke-width: 1px;
     margin-bottom: 16px;    
 }
 
-.person,
-.us-tel {
+.person {
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -715,14 +714,12 @@ stroke-width: 1px;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.us-icon-lab use {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-.person-black:focus + .us-icon-lab use {
-    fill: #4D5AE5;  
+.person-black:focus + .us-icon-lab use{
+    fill: #4D5AE5;
+    color: #4D5AE5;  
 }
 
 
@@ -751,6 +748,10 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .us-com {
     margin-top: 8px;
     margin-bottom: 16px; 
+}
+
+.check-fo {
+    margin-bottom: 24px;  
 }
 
 .priv-pol {
@@ -814,7 +815,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .submit-btn {
     margin: 0 auto;
-    margin-top: 24px;
+    /* margin-top: 24px; */
     border-radius: 4px;
     padding: 16px 32px;
     min-width: 169px;
