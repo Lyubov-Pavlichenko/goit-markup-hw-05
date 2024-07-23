@@ -580,7 +580,7 @@ background-color: #404bbf;
 
 .social-links-btn {
     width: 100%;
-    padding-left: 16px;
+    margin-left: 16px;
     top: 50%;
     fill: #F4F4FD;
 }
