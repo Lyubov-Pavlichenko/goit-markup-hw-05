@@ -714,7 +714,7 @@ stroke-width: 1px;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .person-black:focus + .us-icon-lab use{
@@ -769,7 +769,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #4d5ae5;  
 }
 
-.visual-hidden {
+.visually-hidden {
      position: absolute;
      width: 1px;
      height: 1px;
